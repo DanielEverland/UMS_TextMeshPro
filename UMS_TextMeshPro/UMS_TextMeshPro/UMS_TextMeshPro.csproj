@@ -7,8 +7,8 @@
     <ProjectGuid>{266EC4BD-C25F-4320-816E-AC3DE8808DB4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UMS.TextMeshPro</RootNamespace>
-    <AssemblyName>UMS.TextMeshPro</AssemblyName>
+    <RootNamespace>UMS_TextMeshPro</RootNamespace>
+    <AssemblyName>UMS_TextMeshPro</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
