@@ -9,7 +9,7 @@ using TMPro;
 using Newtonsoft.Json;
 using UnityEngine;
 
-namespace UMS.TMP.Types
+namespace UMS.TextMeshPro.Types
 {
     public abstract class SerializableTMP_Asset<TNonSerializable, TSerializable> : SerializableObject<TNonSerializable, TSerializable> where TNonSerializable : TMP_Asset
     {

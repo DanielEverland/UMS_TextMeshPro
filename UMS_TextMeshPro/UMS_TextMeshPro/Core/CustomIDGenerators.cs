@@ -1,7 +1,7 @@
 ﻿using UMS.Behaviour;
 using TMPro;
 
-namespace UMS.TMP.Types
+namespace UMS.TextMeshPro.Core
 {
     public class CustomIDGenerators
     {
