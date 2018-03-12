@@ -60,9 +60,6 @@
   <ItemGroup>
     <Compile Include="Core\CustomIDGenerators.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Types\SerializableTMP_Asset.cs" />
-    <Compile Include="Types\SerializableTMP_FontAsset.cs" />
-    <Compile Include="Types\SerializableTMP_FontWeights.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
