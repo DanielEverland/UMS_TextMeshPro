@@ -46,8 +46,8 @@
     <Reference Include="TextMeshPro-2017.3-1.0.56-Runtime">
       <HintPath>..\..\..\SerializerTest\Assets\TextMesh Pro\Plugins\Runtime DLL\TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="UMS">
-      <HintPath>..\..\..\Unity-Mod-Serializer\UMS\UnityModSerializer\bin\Debug\UMS.dll</HintPath>
+    <Reference Include="UMS_Runtime">
+      <HintPath>..\..\..\Unity-Mod-Serializer\UMS\UnityModSerializer\bin\Client\UMS_Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>C:\Program Files\Unity_2017.3.0f3\Editor\Data\Managed\UnityEditor.dll</HintPath>

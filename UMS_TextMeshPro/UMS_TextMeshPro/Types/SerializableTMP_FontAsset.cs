@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 using UnityEditor;
-using UMS.Core.Types;
+using UMS.Types;
 using UMS.Deserialization;
 using TMPro;
 using Newtonsoft.Json;

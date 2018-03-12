@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using UMS.Deserialization;
-using UMS.Serialization;
-using UMS.Core.Types;
 using TMPro;
 using Newtonsoft.Json;
 using UnityEngine;
+using UMS.Types;
+using UMS.Deserialization;
 
 namespace UMS_TextMeshPro.Types
 {
