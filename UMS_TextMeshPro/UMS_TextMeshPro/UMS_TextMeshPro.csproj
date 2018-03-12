@@ -39,9 +39,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="TextMeshPro-2017.3-1.0.56-Runtime">
       <HintPath>..\..\..\SerializerTest\Assets\TextMesh Pro\Plugins\Runtime DLL\TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
