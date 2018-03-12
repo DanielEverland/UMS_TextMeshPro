@@ -28,10 +28,6 @@ namespace UMS_TextMeshPro.Types
         [JsonProperty]
         private Reference _italicTypeface;
         
-        public override SerializableTMP_FontWeights Serialize(TMP_FontWeights obj)
-        {
-            return new SerializableTMP_FontWeights(obj);
-        }
         public void AsynchronousDeserialization(Action<object> action, SerializableTMP_FontWeights serialized)
         {
             Deserializer.GetDeserializedObject<TMP_FontAsset>(serialized._regularTypeface.ID, regularTypeface =>
@@ -60,6 +56,10 @@ namespace UMS_TextMeshPro.Types
                 regularTypeface = regularTypeface,
                 italicTypeface = italicTypeface,
             };
+        }
+        public static SerializableTMP_FontWeights Serialize(TMP_FontWeights obj)
+        {
+            return new SerializableTMP_FontWeights(obj);
         }
     }
 }
